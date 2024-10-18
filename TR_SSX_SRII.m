@@ -6,11 +6,11 @@ SpectrumEnd = 915;
 %% 7 ms data first run
 for kk=1:55
 if kk <= 9
-file = ['Sample_3/7 ms/1906252U1_000' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\7 ms\1906252U1_000' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 if kk >= 10
-file = ['Sample_3/7 ms/1906252U1_00' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\7 ms\1906252U1_00' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 wavelength(kk,:) = import_data(kk).data(:,1);
@@ -26,11 +26,11 @@ ReferenceEarly = mean(ReferenceB(:,:),1);
 %% 7 ms data second run
 for kk=1:52
 if kk <= 9
-file = ['Sample_3/7 ms B/1906252U1_000' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\7 ms B\1906252U1_000' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 if kk >= 10
-file = ['Sample_3/7 ms B/1906252U1_00' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\7 ms B\1906252U1_00' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 wavelength(kk,:) = import_data(kk).data(:,1);
@@ -45,11 +45,11 @@ Abs7msB = -log10((mean(SampleB(:,:),1) - dark(1,SpectrumStart:SpectrumEnd))./(me
 %% 10 ms data second run
 for kk=1:45
 if kk <= 9
-file = ['Sample_3/10 ms/1906252U1_000' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\10 ms\1906252U1_000' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 if kk >= 10
-file = ['Sample_3/10 ms/1906252U1_00' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\10 ms\1906252U1_00' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 wavelength(kk,:) = import_data(kk).data(:,1);
@@ -64,11 +64,11 @@ Abs10ms = -log10((mean(SampleB(:,:),1) - dark(1,SpectrumStart:SpectrumEnd))./(me
 %% 15 ms data second run
 for kk=1:46
 if kk <= 9
-file = ['Sample_3/15 ms/1906252U1_000' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\15 ms\1906252U1_000' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 if kk >= 10
-file = ['Sample_3/15 ms/1906252U1_00' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\15 ms\1906252U1_00' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 wavelength(kk,:) = import_data(kk).data(:,1);
@@ -83,11 +83,11 @@ Abs15ms = -log10((mean(SampleB(:,:),1) - dark(1,SpectrumStart:SpectrumEnd))./(me
 %% 20 ms data second run
 for kk=1:45
 if kk <= 9
-file = ['Sample_3/20 ms/1906252U1_000' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\20 ms\1906252U1_000' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 if kk >= 10
-file = ['Sample_3/20 ms/1906252U1_00' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\20 ms\1906252U1_00' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 wavelength(kk,:) = import_data(kk).data(:,1);
@@ -102,11 +102,11 @@ Abs20ms = -log10((mean(SampleB(:,:),1) - dark(1,SpectrumStart:SpectrumEnd))./(me
 %% 30 ms data second run
 for kk=1:45
 if kk <= 9
-file = ['Sample_3/30 ms/1906252U1_000' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\30 ms\1906252U1_000' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 if kk >= 10
-file = ['Sample_3/30 ms/1906252U1_00' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\30 ms\1906252U1_00' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 wavelength(kk,:) = import_data(kk).data(:,1);
@@ -121,11 +121,11 @@ Abs30ms = -log10((mean(SampleB(:,:),1) - dark(1,SpectrumStart:SpectrumEnd))./(me
 %% 45 ms data second run
 for kk=1:45
 if kk <= 9
-file = ['Sample_3/45 ms/1906252U1_000' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\45 ms\1906252U1_000' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 if kk >= 10
-file = ['Sample_3/45 ms/1906252U1_00' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\45 ms\1906252U1_00' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 wavelength(kk,:) = import_data(kk).data(:,1);
@@ -140,11 +140,11 @@ Abs45ms = -log10((mean(SampleB(:,:),1) - dark(1,SpectrumStart:SpectrumEnd))./(me
 %% 60 ms data second run
 for kk=1:45
 if kk <= 9
-file = ['Sample_3/60 ms/1906252U1_000' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\60 ms\1906252U1_000' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 if kk >= 10
-file = ['Sample_3/60 ms/1906252U1_00' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\60 ms\1906252U1_00' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 wavelength(kk,:) = import_data(kk).data(:,1);
@@ -159,11 +159,11 @@ Abs60ms = -log10((mean(SampleB(:,:),1) - dark(1,SpectrumStart:SpectrumEnd))./(me
 %% 90 ms data second run
 for kk=1:46
 if kk <= 9
-file = ['Sample_3/90 ms/1906252U1_000' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\90 ms\1906252U1_000' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 if kk >= 10
-file = ['Sample_3/90 ms/1906252U1_00' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\90 ms\1906252U1_00' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 wavelength(kk,:) = import_data(kk).data(:,1);
@@ -178,11 +178,11 @@ Abs90ms = -log10((mean(SampleB(:,:),1) - dark(1,SpectrumStart:SpectrumEnd))./(me
 %% 120 ms data second run
 for kk=1:46
 if kk <= 9
-file = ['Sample_3/120 ms/1906252U1_000' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\120 ms\1906252U1_000' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 if kk >= 10
-file = ['Sample_3/120 ms/1906252U1_00' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\120 ms\1906252U1_00' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 wavelength(kk,:) = import_data(kk).data(:,1);
@@ -197,11 +197,11 @@ Abs120ms = -log10((mean(SampleB(:,:),1) - dark(1,SpectrumStart:SpectrumEnd))./(m
 %% 150 ms data second run
 for kk=1:46
 if kk <= 9
-file = ['Sample_3/150 ms/1906252U1_000' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\150 ms\1906252U1_000' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 if kk >= 10
-file = ['Sample_3/150 ms/1906252U1_00' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\150 ms\1906252U1_00' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 wavelength(kk,:) = import_data(kk).data(:,1);
@@ -216,11 +216,11 @@ Abs150ms = -log10((mean(SampleB(:,:),1) - dark(1,SpectrumStart:SpectrumEnd))./(m
 %% 200 ms data second run
 for kk=1:48
 if kk <= 9
-file = ['Sample_3/200 ms/1906252U1_000' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\200 ms\1906252U1_000' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 if kk >= 10
-file = ['Sample_3/200 ms/1906252U1_00' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\200 ms\1906252U1_00' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 wavelength(kk,:) = import_data(kk).data(:,1);
@@ -235,11 +235,11 @@ Abs200ms = -log10((mean(SampleB(:,:),1) - dark(1,SpectrumStart:SpectrumEnd))./(m
 %% 300 ms data second run
 for kk=1:50
 if kk <= 9
-file = ['Sample_3/300 ms/1906252U1_000' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\300 ms\1906252U1_000' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 if kk >= 10
-file = ['Sample_3/300 ms/1906252U1_00' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\300 ms\1906252U1_00' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 wavelength(kk,:) = import_data(kk).data(:,1);
@@ -254,11 +254,11 @@ Abs300ms = -log10((mean(SampleB(:,:),1) - dark(1,SpectrumStart:SpectrumEnd))./(m
 %% 400 ms data second run
 for kk=1:48
 if kk <= 9
-file = ['Sample_3/400 ms/1906252U1_000' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\400 ms\1906252U1_000' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 if kk >= 10
-file = ['Sample_3/400 ms/1906252U1_00' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\400 ms\1906252U1_00' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 wavelength(kk,:) = import_data(kk).data(:,1);
@@ -273,11 +273,11 @@ Abs400ms = -log10((mean(SampleB(:,:),1) - dark(1,SpectrumStart:SpectrumEnd))./(m
 %% 500 ms data second run
 for kk=1:45
 if kk <= 9
-file = ['Sample_3/500 ms/1906252U1_000' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\500 ms\1906252U1_000' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 if kk >= 10
-file = ['Sample_3/500 ms/1906252U1_00' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\500 ms\1906252U1_00' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 wavelength(kk,:) = import_data(kk).data(:,1);
@@ -292,11 +292,11 @@ Abs500ms = -log10((mean(SampleB(:,:),1) - dark(1,SpectrumStart:SpectrumEnd))./(m
 %% 600 ms data second run
 for kk=1:45
 if kk <= 9
-file = ['Sample_3/600 ms/1906252U1_000' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\600 ms\1906252U1_000' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 if kk >= 10
-file = ['Sample_3/600 ms/1906252U1_00' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\600 ms\1906252U1_00' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 wavelength(kk,:) = import_data(kk).data(:,1);
@@ -311,11 +311,11 @@ Abs600ms = -log10((mean(SampleB(:,:),1) - dark(1,SpectrumStart:SpectrumEnd))./(m
 %% 900 ms data second run
 for kk=1:90
 if kk <= 9
-file = ['Sample_3/900 ms/1906252U1_000' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\900 ms\1906252U1_000' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 if kk >= 10
-file = ['Sample_3/900 ms/1906252U1_00' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\900 ms\1906252U1_00' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 wavelength(kk,:) = import_data(kk).data(:,1);
@@ -331,11 +331,11 @@ Abs900ms = -log10((mean(SampleB(:,:),1) - dark(1,SpectrumStart:SpectrumEnd))./(m
 %% SRII spectra at start and finish of measurements.
 for kk=1:30
 if kk <= 9
-file = ['Sample_3/SRII/1906252U1_000' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\SRII\1906252U1_000' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 if kk >= 10
-file = ['Sample_3/SRII/1906252U1_00' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\SRII\1906252U1_00' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 wavelength(kk,:) = import_data(kk).data(:,1);
@@ -349,11 +349,11 @@ size(SampleSRII)
 AbsSRII = mean(SampleSRII);
 for kk=1:30
 if kk <= 9
-file = ['Sample_3/SRII B/1906252U1_000' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\SRII B\1906252U1_000' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 if kk >= 10
-file = ['Sample_3/SRII B/1906252U1_00' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\SRII B\1906252U1_00' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 wavelength(kk,:) = import_data(kk).data(:,1);
@@ -368,11 +368,11 @@ AbsSRIIB = mean(SampleSRII);
 %% 120 ms continuous data second run
 for kk=1:45
 if kk <= 9
-file = ['Sample_3/120 ms Continuous/1906252U1_000' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\120 ms Continuous\1906252U1_000' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 if kk >= 10
-file = ['Sample_3/120 ms Continuous/1906252U1_00' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\120 ms Continuous\1906252U1_00' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 wavelength(kk,:) = import_data(kk).data(:,1);
@@ -387,11 +387,11 @@ Abs120msCont = -log10((mean(SampleB(:,:),1) - dark(1,SpectrumStart:SpectrumEnd))
 %% 150 ms continuous data second run
 for kk=1:45
 if kk <= 9
-file = ['Sample_3/150 ms Continuous/1906252U1_000' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\150 ms Continuous\1906252U1_000' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 if kk >= 10
-file = ['Sample_3/150 ms Continuous/1906252U1_00' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\150 ms Continuous\1906252U1_00' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 wavelength(kk,:) = import_data(kk).data(:,1);
@@ -406,11 +406,11 @@ Abs150msCont = -log10((mean(SampleB(:,:),1) - dark(1,SpectrumStart:SpectrumEnd))
 %% 180 ms continuous data second run
 for kk=1:45
 if kk <= 9
-file = ['Sample_3/180 ms Continuous/1906252U1_000' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\180 ms Continuous\1906252U1_000' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 if kk >= 10
-file = ['Sample_3/180 ms Continuous/1906252U1_00' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\180 ms Continuous\1906252U1_00' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 wavelength(kk,:) = import_data(kk).data(:,1);
@@ -425,11 +425,11 @@ Abs180msCont = -log10((mean(SampleB(:,:),1) - dark(1,SpectrumStart:SpectrumEnd))
 %% 240 ms continuous data second run
 for kk=1:45
 if kk <= 9
-file = ['Sample_3/240 ms Continous/1906252U1_000' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\240 ms Continous\1906252U1_000' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 if kk >= 10
-file = ['Sample_3/240 ms Continous/1906252U1_00' num2str(kk) '.Abs8.txt'];
+file = ['C:\Users\Richard\Desktop\Folders\Papers\TIME_RESOLVED\SRII_TRSSX\Nature_Communications\Spectroscopy\SRII Difference\Friday Afternoon\Sample 3\240 ms Continous\1906252U1_00' num2str(kk) '.Abs8.txt'];
 import_data(kk) = importdata(file);
 end
 wavelength(kk,:) = import_data(kk).data(:,1);
@@ -504,7 +504,7 @@ plot(wavelength(1,SpectrumStart:SpectrumEnd),Comp1,'linewidth',2.5,'color',[0.92
 plot(wavelength(1,SpectrumStart:SpectrumEnd),Comp2,'linewidth',2.5,'color',[0 0.4470 0.7410]);
 axis([300 700 -0.3 0.2]);
 xlabel('Wavelength (nm)')
-ylabel('/DeltaAbsorption (OD)')
+ylabel('\DeltaAbsorption (OD)')
 box on; set(gca,'linewidth',2); set(gca,'FontSize',14);
 % [temp5(1)/(temp5(1)+temp5(2)) temp5(2)/(temp5(1)+temp5(2))];
 subplot(3,1,2)
@@ -532,7 +532,7 @@ plot(wavelength(1,SpectrumStart:SpectrumEnd),temp5(2)*Comp2,'linewidth',2.5,'col
 plot(wavelength(1,SpectrumStart:SpectrumEnd),temp5(1)*Comp1 + temp5(2)*Comp2,'linewidth',1.5,'color',[0.6350 0.0780 0.1840])
 axis([300 700 -0.3 0.2]);
 xlabel('Wavelength (nm)')
-ylabel('/DeltaAbsorption (OD)')
+ylabel('\DeltaAbsorption (OD)')
 box on; set(gca,'linewidth',2); set(gca,'FontSize',14);
 [temp5(1)/(temp5(1)+temp5(2)) temp5(2)/(temp5(1)+temp5(2))]
 %% Write function to minimize
